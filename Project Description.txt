@@ -1,0 +1,13 @@
+Project Description: Shop Management System using C++ OOP
+
+The Shop Management System is a C++ program that uses object-oriented programming principles to manage a shop's employees, customers, products, and orders. The program is designed to provide the shop's management team with an efficient and organized way to manage their daily operations.
+
+The system consists of five base classes: Person, Employee, Customer, Product, and Order. The Person class is the parent class of the Employee and Customer classes, and it contains basic information about the individual, such as their name, age, and address. The Employee class represents all employees of the shop and contains additional information such as their job title and salary. The Customer class represents all the shop's customers and contains information about their purchase history and loyalty points. The Product class represents all the products available in the shop, containing information about the product name, price, and stock level. Finally, the Order class represents a specific customer order and contains information such as the order number, customer, and products ordered.
+
+The program also includes three additional classes that inherit from the Employee class: Manager, Salesperson, and Technician. The Manager class includes additional information such as the size of the manager's team and the budget they are responsible for managing. The Salesperson class includes additional information such as their sales targets and commission. Finally, the Technician class includes additional information such as their skills and certifications.
+
+The program includes several member functions for each class, such as Get functions to retrieve information, PrintInfo functions to display information, and operator overloading functions to perform operations such as adding and subtracting products from an order.
+
+The program utilizes various C++ features such as vectors, friend classes, and inheritance to create a flexible and efficient system for managing a shop's operations. The program is designed to be easy to use, providing the shop's management team with all the information they need to make informed decisions about the shop's daily operations.
+
+Overall, the Shop Management System is a powerful tool for managing a shop's employees, customers, products, and orders. By using object-oriented programming principles and C++ features, the program provides a flexible and efficient way to manage a shop's daily operations.
